@@ -5,22 +5,18 @@
 nav {
   margin-top: 0;
 }
-.navbar a {
+.navbar li a {
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 600;
   border-radius: 5px;
 }
-.navbar a:hover {
+.navbar li a:hover {
   background-color: white;
   /* border-radius: 20px; */
   color: crimson;
 }
-.fa-linkedin:hover {
-  background-color: crimson;
-  /* border-radius: 20px; */
-  color: white;
-}
+
 .nav-link {
   transition: background-color 1s;
 }
@@ -30,7 +26,7 @@ nav {
 } */
 /*! ------------- 2- CAROUSEL --------------- */
 .carousel-item {
-  max-height: calc(100vh - 88px);
+  max-height: calc(100vh - 65px);
 }
 .carousel-item h5 {
   color: crimson;
@@ -55,6 +51,12 @@ nav {
 .carousel-caption {
   bottom: 5rem;
 }
+#first i:hover,
+#second i:hover {
+  cursor: pointer !important;
+  color: black !important;
+  /* background-color: white !important; */
+}
 /*! ------------ 3- ABOUT SECTION ----------- */
 
 /*! ------------- 4- INSTRUCTORS -------------*/
@@ -74,13 +76,11 @@ section#instructors .socials i:hover {
 /*! ----------- 4- STUDENTS SECTION ----------*/
 
 /*! ----------- 5- COURSES SECTION ----------- */
-#courses .tab-pane img {
-  border: 5px solid white !important;
-  border-radius: 5px;
-  width: 100% !important;
-  height: 100% !important;
-  background-image: cover;
-  background-position: center;
+section#courses .nav-link.active {
+  background-color: #dc3545;
+}
+section#courses .nav-link {
+  color: white;
 }
 /*! ----------- 6- CONTACT SECTION ------------ */
 
