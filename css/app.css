@@ -1,0 +1,105 @@
+/*! -------------- 1- NAVBAR ---------------- */
+:root {
+  --red: #dc3545;
+}
+nav {
+  margin-top: 0;
+}
+.navbar a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.navbar a:hover {
+  background-color: white;
+  /* border-radius: 20px; */
+  color: crimson;
+}
+.fa-linkedin:hover {
+  background-color: crimson;
+  /* border-radius: 20px; */
+  color: white;
+}
+.nav-link {
+  transition: background-color 1s;
+}
+/* .nav button:hover {
+  background-color: #dc3545 !important;
+  color: white !important;
+} */
+/*! ------------- 2- CAROUSEL --------------- */
+.carousel-item {
+  max-height: calc(100vh - 88px);
+}
+.carousel-item h5 {
+  color: crimson;
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 3px black;
+}
+.carousel-item p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 3px 3px 3px black;
+}
+.carousel-item .btn {
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+.carousel-indicators button {
+  background-color: #dc3545 !important;
+  height: 0.3rem !important;
+  width: 3rem !important;
+  margin-right: 0.5rem !important;
+}
+.carousel-caption {
+  bottom: 5rem;
+}
+/*! ------------ 3- ABOUT SECTION ----------- */
+
+/*! ------------- 4- INSTRUCTORS -------------*/
+section#instructors .card {
+  transition: transform 0.5s;
+}
+section#instructors .card:hover {
+  transform: scale(1.05);
+}
+section#instructors .socials i {
+  transition: opacity 0.5s;
+}
+section#instructors .socials i:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+/*! ----------- 4- STUDENTS SECTION ----------*/
+
+/*! ----------- 5- COURSES SECTION ----------- */
+#courses .tab-pane img {
+  border: 5px solid white !important;
+  border-radius: 5px;
+  width: 100% !important;
+  height: 100% !important;
+  background-image: cover;
+  background-position: center;
+}
+/*! ----------- 6- CONTACT SECTION ------------ */
+
+#inputd {
+  width: 90%;
+}
+/** -------------- UP-BUTTON ------------------ */
+#btn {
+  position: relative;
+}
+#btn2 {
+  display: flex;
+  justify-content: end;
+}
+#deep {
+  border-radius: 50%;
+
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+}
+/*! --------------- 7- FOOTER ----------------- */
