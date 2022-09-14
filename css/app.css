@@ -103,3 +103,6 @@ section#courses .nav-link {
   bottom: 50px;
 }
 /*! --------------- 7- FOOTER ----------------- */
+footer a i:hover {
+  color: #dc3545 !important;
+}
